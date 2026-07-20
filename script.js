@@ -3,7 +3,7 @@
 // ${title} to take any parameter or making a variable
 
 
-function CreateCard(title, cName, views, monthsOld, duration, thumbnail) {
+function createCard(title, cName, views, monthsOld, duration, thumbnail) {
 
     let viewStr
 
