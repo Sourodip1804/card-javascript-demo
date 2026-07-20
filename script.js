@@ -4,7 +4,9 @@
 
 
 function CreateCard(title, cName, views, monthsOld, duration, thumbnail){
+
     let viewStr
+    
     if (views<1000000){
         // for making the 100k design
         viewStr = views/1000 + "K";
@@ -16,9 +18,8 @@ function CreateCard(title, cName, views, monthsOld, duration, thumbnail){
         viewStr = views/1000 + "K";
     }
 
-
     // making html variable
-    let html = `        <div class="card">
+    let html = `<div class="card">
             <div class="image">
                 <img src="https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLACwWOixJVrKLFindK92kYMgTcQbw"
                     alt="">
