@@ -4,4 +4,5 @@
 function CreateCard(title, cName, views, monthsOld, duration, thumbnail){
     // making html variable
     
+
 }
