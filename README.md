@@ -70,12 +70,11 @@ The function:
 
 ```javascript
 createCard(
-    "Introduction to Backend | Sigma Web Dev video #2",
-    "CodeWithHarry",
-    560000,
-    7,
-    "31:22",
-    "https://i.ytimg.com/vi/tVzUXW6siu0/hqdefault.jpg"
+    "Video Title here",
+    Total Views,
+    months,
+    "video duration",
+    "image link here"
 );
 ```
 
